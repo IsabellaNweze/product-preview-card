@@ -15,6 +15,7 @@
 body {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   background: hsl(30, 38%, 92%);
   font-family: "Montserrat", sans-serif;
@@ -23,7 +24,7 @@ body {
 
 .wrapper {
   margin: 20px;
-  width: 280px;
+  width: 270px;
   display: flex;
   flex-direction: column;
   background: hsl(0, 0%, 100%);
